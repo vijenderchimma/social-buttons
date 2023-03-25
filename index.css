@@ -1,0 +1,100 @@
+/* Write your code here. */
+@media (max-width: 768px) {
+  .main-container {
+    background-image: url("https://assets.ccbp.in/frontend/react-js/social-buttons-bg.png");
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Bree serif";
+  }
+  .main-heading {
+    font-size: 30px;
+    color: #ffffff;
+  }
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: transparent;
+  }
+  .button1 {
+    color: #ffffff;
+    background-color: #eab308;
+    border-radius: 10px;
+    border-style: none;
+    height: 40px;
+    width: 100px;
+    margin-bottom: 20px;
+  }
+  .button2 {
+    color: #323f4b;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border-style: none;
+    height: 40px;
+    width: 100px;
+    margin-bottom: 20px;
+  }
+  .button3 {
+    color: #ffffff;
+    background-color: #1d4ed8;
+    border-radius: 10px;
+    border-style: none;
+    height: 40px;
+    width: 100px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .main-container {
+    background-image: url("https://assets.ccbp.in/frontend/react-js/social-buttons-bg.png");
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Bree serif";
+  }
+  .main-heading {
+    font-size: 30px;
+    color: #ffffff;
+  }
+  .card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: transparent;
+  }
+  .button1 {
+    color: #ffffff;
+    background-color: #eab308;
+    border-radius: 10px;
+    border-style: none;
+    height: 40px;
+    width: 100px;
+    margin-right: 20px;
+  }
+  .button2 {
+    color: #323f4b;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border-style: none;
+    height: 40px;
+    width: 100px;
+    margin-right: 20px;
+  }
+  .button3 {
+    color: #ffffff;
+    background-color: #1d4ed8;
+    border-radius: 10px;
+    border-style: none;
+    height: 40px;
+    width: 100px;
+    margin-right: 20px;
+  }
+}
